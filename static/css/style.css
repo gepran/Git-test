@@ -1,0 +1,92 @@
+.orange-bgcolor{
+	background-image: linear-gradient(bottom, #FF7300 25%, #FF8800 50%, #FFB300 75%);
+	background-image: -o-linear-gradient(bottom, #FF7300 25%, #FF8800 50%, #FFB300 75%);
+	background-image: -moz-linear-gradient(bottom, #FF7300 25%, #FF8800 50%, #FFB300 75%);
+	background-image: -webkit-linear-gradient(bottom, #FF7300 25%, #FF8800 50%, #FFB300 75%);
+	background-image: -ms-linear-gradient(bottom, #FF7300 25%, #FF8800 50%, #FFB300 75%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.25, #FF7300),
+		color-stop(0.5, #FF8800),
+		color-stop(0.75, #FFB300)
+	);
+}
+#panel-style{
+	
+}
+.panel-icones{
+	float: left;
+	margin: 5px 0 0 10px;
+}
+.logout-icones{
+	padding: 10px 15px;
+}
+
+#login-content{
+	border: 10px solid #fff;
+	box-shadow: 0px 0px 20px #ccc;
+	width: 400px;
+	margin: 50px auto;
+	border-radius: 5px;
+}
+#att{
+	float: right;
+}
+#login-form{
+	width: 350px;
+	margin: 50px auto;
+}
+#login-form strong{
+	color: #FCF7F7;
+	text-shadow: 0px -1px 1px #555;
+}
+.forget-password{
+	float: left;
+	margin: 30px 0 0 5px;
+}
+#login-btn{
+	float: right;
+}
+
+/*****************************************************************
+*****************************************************************
+** Home Page
+*****************************************************************
+*****************************************************************/
+.panel{
+	background: url('../img/panela.png') no-repeat;
+	width: 42px;
+	height: 32px;
+	margin: 4px 9px;
+	float: left;
+}
+
+.panel:hover{
+	background: url('../img/panela.png') no-repeat;
+	background-position: 1px -31px;
+	width: 42px;
+	height: 32px;
+	margin: 4px 9px;
+	float: left;
+}
+.logout{
+	background: url('../img/logout.png') no-repeat;
+	width: 42px;
+	height: 32px;
+	position: absolute;
+	right: 9px;
+	top: 5px;
+}
+
+.logout:hover{
+	background: url('../img/logout.png') no-repeat;
+	background-position: 1px -31px;
+	width: 42px;
+	height: 32px;
+	position: absolute;
+	right: 9px;
+	top: 5px
+}
